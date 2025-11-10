@@ -1,0 +1,25 @@
+[project]
+name = "medical-ocr"
+version = "0.1.0"
+description = "OCR pipeline for extracting medical data from PDFs"
+authors = [{ name = "Mehfooj Alam", email = "myemail@example.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pdf2image>=1.16.3",
+    "opencv-python>=4.7.0.72",
+    "pytesseract>=0.3.10",
+    "fastapi>=0.95.2",
+    "uvicorn>=0.22.0",
+    "pydantic>=1.10.7",
+    "pytest>=7.4.0",
+    "python-multipart>=0.0.6",
+    "streamlit>=1.24.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=23.3.0",
+    "flake8>=6.0.0",
+    "mypy>=1.4.1",
+]
