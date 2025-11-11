@@ -1,6 +1,10 @@
 # medical-data-extraction
 An OCR-based system to extract structured patient and prescription information from medical documents.
-![alt text](image.png)
+
+<img width="1883" height="519" alt="image" src="https://github.com/user-attachments/assets/2e927840-7db3-4918-9aa1-e6db8ba80910" />
+
+<br>
+
 [Pipeline](https://excalidraw.com/#json=Dvm9ywHFl9tryX5qQ-MlZ,iKWRni68K9onmD_TV11IcA)
 <!--
 README for the Medical Data Extraction project.
