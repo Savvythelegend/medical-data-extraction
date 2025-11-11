@@ -9,3 +9,5 @@ env/
 *.log
 *.sqlite
 *.egg-info
+*.png
+*.jpg
