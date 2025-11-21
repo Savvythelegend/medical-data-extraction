@@ -1,5 +1,5 @@
 import re
-from generic_parser import MedicalDocParser
+from .generic_parser import MedicalDocParser
 
 
 class PrescriptionParser(MedicalDocParser):

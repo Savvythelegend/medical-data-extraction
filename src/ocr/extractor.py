@@ -1,11 +1,11 @@
 from pdf2image import convert_from_path
 import pytesseract
-import util
 import shutil
 import os
 
-from prescription_parser import PrescriptionParser
-from patient_details_parser import PatientDetailsParser
+from . import util
+from .prescription_parser import PrescriptionParser
+from .patient_details_parser import PatientDetailsParser
 
 _tesseract_path = shutil.which("tesseract")
 if _tesseract_path:
